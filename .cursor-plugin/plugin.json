@@ -1,0 +1,23 @@
+{
+  "name": "grabbit",
+  "version": "1.0.0",
+  "description": "Hosted screenshot MCP for AI agents — URL in, image out. No local Chromium. Not grabbit.sh.",
+  "author": {
+    "name": "Grabbit",
+    "email": "grabbit@agentmail.to"
+  },
+  "homepage": "https://grabbit.live",
+  "repository": "https://github.com/BrainGridAI/grabbit-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "screenshot",
+    "screenshots",
+    "browser",
+    "web-capture",
+    "ai-agents",
+    "vision",
+    "hosted"
+  ],
+  "logo": "assets/grabbit-mark.png"
+}

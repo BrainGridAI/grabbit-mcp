@@ -85,6 +85,18 @@ Guide: https://grabbit.live/agents/codex
 Add the hosted MCP server, or wrap the one-line CLI in a skill.
 Guide: https://grabbit.live/agents/openclaw
 
+## Cursor Marketplace
+
+Install Grabbit directly from the [Cursor Marketplace](https://cursor.com/marketplace) (when listed), or add manually:
+
+`~/.cursor/mcp.json` (or project-scoped `.cursor/mcp.json`):
+
+```json
+{ "mcpServers": { "grabbit": { "url": "https://mcp.grabbit.live" } } }
+```
+
+This repo includes Cursor plugin packaging (`.cursor-plugin/plugin.json`, `mcp.json`, skill) for marketplace submission.
+
 ## CLI
 
 ```bash

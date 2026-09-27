@@ -2,9 +2,19 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "live.grabbit/screenshots",
   "title": "Grabbit",
-  "description": "Screenshot any URL as a hosted image. No local browser; handles bot walls and full-page captures.",
-  "version": "1.0.0",
-  "websiteUrl": "https://grabbit.live/agents",
+  "description": "Hosted screenshot MCP for AI agents — URL in, image out. No local Chromium.",
+  "version": "1.0.1",
+  "websiteUrl": "https://grabbit.live",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/BrainGridAI/grabbit-mcp/main/assets/grabbit-mark.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/BrainGridAI/grabbit-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",

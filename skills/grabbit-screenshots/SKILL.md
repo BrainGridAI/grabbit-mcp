@@ -90,8 +90,8 @@ Install this skill (optional routing help):
 # skills.sh / Vercel skills CLI
 npx skills add BrainGridAI/grabbit-mcp --skill grabbit-screenshots
 
-# OpenClaw ClawHub (after publish)
-openclaw skills install @BrainGridAI/grabbit-screenshots
+# OpenClaw ClawHub
+openclaw skills install @braingrid/grabbit-screenshots
 ```
 
 ## Authentication

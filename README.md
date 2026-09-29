@@ -97,6 +97,36 @@ Install Grabbit directly from the [Cursor Marketplace](https://cursor.com/market
 
 This repo includes Cursor plugin packaging (`.cursor-plugin/plugin.json`, `mcp.json`, skill) for marketplace submission.
 
+## Agent Skills
+
+This repo ships a portable skill folder (`skills/grabbit-screenshots/`) that teaches agents when and how to use the Grabbit hosted screenshot MCP.
+
+### Install via skills.sh
+
+```bash
+npx skills add BrainGridAI/grabbit-mcp --skill grabbit-screenshots
+```
+
+After public installs, the skill can appear on [skills.sh](https://skills.sh) via install telemetry (no separate submit form).
+
+### Publish to ClawHub
+
+From the repo root:
+
+```bash
+clawhub skill publish ./skills/grabbit-screenshots --slug grabbit-screenshots --name "Grabbit Screenshots" --version 1.0.0
+```
+
+### Install via OpenClaw / Hermes
+
+After ClawHub publish:
+
+```bash
+openclaw skills install @BrainGridAI/grabbit-screenshots
+```
+
+Hermes can install the same ClawHub skill (ClawHub is a Hermes skill source) and connect MCP at `https://mcp.grabbit.live`.
+
 ## CLI
 
 ```bash
@@ -113,10 +143,10 @@ pricing and the comparison table: https://grabbit.live/#pricing
 
 ## Links
 
-- **Website** — https://grabbit.live
-- **Agent setup guides** — https://grabbit.live/agents
-- **API reference** — https://grabbit.live/screenshot-api
-- **LLM-readable docs** — https://grabbit.live/llms.txt
+- **Website**: https://grabbit.live
+- **Agent setup guides**: https://grabbit.live/agents
+- **API reference**: https://grabbit.live/screenshot-api
+- **LLM-readable docs**: https://grabbit.live/llms.txt
 
 ---
 

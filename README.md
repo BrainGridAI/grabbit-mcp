@@ -119,10 +119,12 @@ clawhub skill publish ./skills/grabbit-screenshots --slug grabbit-screenshots --
 
 ### Install via OpenClaw / Hermes
 
-After ClawHub publish:
+The skill is published on ClawHub at https://clawhub.ai/acossta/skills/grabbit-screenshots
 
 ```bash
-openclaw skills install @BrainGridAI/grabbit-screenshots
+openclaw skills install @acossta/grabbit-screenshots
+# or
+clawhub install grabbit-screenshots
 ```
 
 Hermes can install the same ClawHub skill (ClawHub is a Hermes skill source) and connect MCP at `https://mcp.grabbit.live`.

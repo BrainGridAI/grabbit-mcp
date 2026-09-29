@@ -91,7 +91,7 @@ Install this skill (optional routing help):
 npx skills add BrainGridAI/grabbit-mcp --skill grabbit-screenshots
 
 # OpenClaw ClawHub
-openclaw skills install @acossta/grabbit-screenshots
+openclaw skills install @braingrid/grabbit-screenshots
 ```
 
 ## Authentication

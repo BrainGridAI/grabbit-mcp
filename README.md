@@ -119,10 +119,10 @@ clawhub skill publish ./skills/grabbit-screenshots --slug grabbit-screenshots --
 
 ### Install via OpenClaw / Hermes
 
-The skill is published on ClawHub at https://clawhub.ai/acossta/skills/grabbit-screenshots
+The skill is published on ClawHub at https://clawhub.ai/braingrid/skills/grabbit-screenshots
 
 ```bash
-openclaw skills install @acossta/grabbit-screenshots
+openclaw skills install @braingrid/grabbit-screenshots
 # or
 clawhub install grabbit-screenshots
 ```

@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "live.grabbit/screenshots",
   "title": "Grabbit",
-  "description": "Hosted screenshot MCP for AI agents — URL in, image out. No local Chromium.",
+  "description": "Hosted screenshot MCP for AI agents. URL in, image out. No local Chromium.",
   "version": "1.0.1",
   "websiteUrl": "https://grabbit.live",
   "icons": [

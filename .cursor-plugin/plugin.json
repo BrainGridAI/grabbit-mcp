@@ -1,7 +1,7 @@
 {
   "name": "grabbit",
   "version": "1.0.0",
-  "description": "Hosted screenshot MCP for AI agents — URL in, image out. No local Chromium. Not grabbit.sh.",
+  "description": "Hosted screenshot MCP for AI agents. URL in, image out. No local Chromium. Not grabbit.sh.",
   "author": {
     "name": "Grabbit",
     "email": "grabbit@agentmail.to"
